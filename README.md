@@ -10,10 +10,13 @@ $ reconstructParMesh   # for dynamic Mesh only (no need this )
 
 $ reconstructPar # no need this
 
-$ paraFoam -builtin   (this can take simulation data without reconstructPar but makes it slower )
+$ paraFoam -builtin   (this can take simulation data without reconstructPar but makes it slower ) , select decomposed case in the dropdown
 
-<aside>
-💡 To get the 3D view  :  open Paraview then filters > alphabetic > isoVolume, then set min and max value of alpha.water
-😘 First take a ruler and then get the alpha.water value then Save data from File > Save data 
 
-</aside>
+💡 To get the 3D view  :  open Paraview then filters > alphabetic >  then do the following 
+  
+    # Clip (will slice the mesh in a plane)
+    # Isovolume will give 3d pic ( set the max value of alpha.water ) 
+    # PLot over line  will give values along the length of a line
+😘 Save animation or data depending on what you needd
+
