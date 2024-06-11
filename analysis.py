@@ -1,4 +1,7 @@
 # This is to get the maximum radius or max film thickness ( using plot over line ) 
+# For film thickness use "PLOT OVER LINE" for the  Zaxis , and for maximum radius use  use Xaxis  
+# Firstly save data using "plot over line" in the extract folder with name "zaxis.0 , zaxis.1 ..." 
+# Then run this code "python3 analysis.py" to get the max filmthickness
 
 import csv
 import os
