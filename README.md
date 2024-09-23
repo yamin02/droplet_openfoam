@@ -22,7 +22,8 @@ $ paraFoam -builtin   (this can take simulation data without reconstructPar but 
 😘 Save animation or data depending on what you needd
 
 
-😛 Get the graph directly from paraview
+😛 Get the graph directly from paraview: 
+
     # PlotOverLine  ( from origin to the edge of domain across X axis)
     # Find Data ( just press V ) => (points) alpha.water > 0.9  
     # PLotSelectionOverLine ( to get the arc length )
