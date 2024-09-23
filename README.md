@@ -18,12 +18,13 @@ $ paraFoam -builtin   (this can take simulation data without reconstructPar but 
     # Clip (will slice the mesh in a plane)
     # Isovolume will give 3d pic ( set the max value of alpha.water ) 
     # PLot over line  will give values along the length of a line
+    
 😘 Save animation or data depending on what you needd
 
 
 😛 Get the graph directly from paraview
-
-   # PlotOverLine 
-   # Find Data ( just press V ) => (points) alpha.water > 0.9  
-   # PLotSelectionOverLine ( to get
+    # PlotOverLine  ( from origin to the edge of domain across X axis)
+    # Find Data ( just press V ) => (points) alpha.water > 0.9  
+    # PLotSelectionOverLine ( to get the arc length )
+    
 
